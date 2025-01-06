@@ -44,6 +44,6 @@ docker run -it michaelcourcy/kasten-tools:7.5.1
 This will start a shell with the installed tools available for use. But the main usage if for kasten blueprint. 
 You can test it in the kasten-io namespace 
 ```
-kubectl -n kasten-io run ktools -it --rm --image michaelcourcy/kasten-tools:7.5.1 -- /bin/sh
+kubectl -n kasten-io run ktools -it --rm --image michaelcourcy/kasten-tools:7.5.1 --command -- /bin/sh
 ```
 
