@@ -1,4 +1,5 @@
-FROM gcr.io/kasten-images/kanister-tools:7.5.1
+ARG KASTEN_VERSION=8.0.2
+FROM gcr.io/kasten-images/kanister-tools:${KASTEN_VERSION}
 
 ARG HELM_VERSION=3.7.1
 ARG KUBECTL_VERSION=1.32.0
