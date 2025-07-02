@@ -39,7 +39,7 @@ docker build --platform linux/amd64 \
 # make a simpler tag 
 docker tag $IMAGE:$TAG $IMAGE:$KASTEN_VERSION
 docker push $IMAGE:$TAG
-docker push $IMAGE:$KASTEN_VERION
+docker push $IMAGE:$KASTEN_VERSION
 ```
 
 - For `kubectl` version check https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
